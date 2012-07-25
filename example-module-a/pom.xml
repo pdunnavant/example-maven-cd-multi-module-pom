@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<name>Example Library</name>
+	<groupId>org.example</groupId>
+	<artifactId>example-module-a</artifactId>
+	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>org.example</groupId>
+		<artifactId>example-maven-cd-multi-module-pom</artifactId>
+		<version>${version.full}</version>
+	</parent>
+
+	<scm>
+		<connection>${scm.location}</connection>
+		<url>${scm.location}</url>
+		<developerConnection>${scm.location}</developerConnection>
+	</scm>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/build.properties</include>
+				</includes>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>false</filtering>
+				<excludes>
+					<exclude>**/build.properties</exclude>
+				</excludes>
+			</resource>
+		</resources>
+	</build>
+
+	<properties>
+		<scm.location>scm:git:git@github.com:pdunnavant/example-maven-cd-multi-module-pom.git</scm.location>
+	</properties>
+</project>
