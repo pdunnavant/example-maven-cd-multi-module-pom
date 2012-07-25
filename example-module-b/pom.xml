@@ -11,6 +11,7 @@
                 <groupId>org.example</groupId>
                 <artifactId>example-maven-cd-multi-module-pom</artifactId>
                 <version>${version.full}</version>
+		<relativePath>..</relativePath>
         </parent>
 
 	<scm>
