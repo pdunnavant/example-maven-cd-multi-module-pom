@@ -5,7 +5,7 @@
 	<name>Example Library A</name>
 	<groupId>org.example</groupId>
 	<artifactId>example-module-a</artifactId>
-	<version>${parent.version.full}</version>
+	<version>${version.full}</version>
 	<packaging>jar</packaging>
 
 	<parent>
