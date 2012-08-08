@@ -5,7 +5,7 @@
 	<name>Example Library</name>
 	<groupId>org.example</groupId>
 	<artifactId>example-maven-cd-single-pom</artifactId>
-	<version>${version.full}</version>
+	<version>RELEASE</version>
 	<packaging>pom</packaging>
 	<description>
 		1.0 - This is just a test pom to see how we can get continuous delivery and Maven working nicely together.

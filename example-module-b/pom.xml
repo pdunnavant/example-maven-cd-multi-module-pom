@@ -5,12 +5,13 @@
 	<name>Example Library</name>
 	<groupId>org.example</groupId>
 	<artifactId>example-module-b</artifactId>
+	<version>${version.full}</version>
 	<packaging>jar</packaging>
 
         <parent>
                 <groupId>org.example</groupId>
                 <artifactId>example-maven-cd-multi-module-pom</artifactId>
-                <version>${version.full}</version>
+                <version>RELEASE</version>
 		<relativePath>..</relativePath>
         </parent>
 
