@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<name>Example Library</name>
 	<groupId>org.example</groupId>
-	<artifactId>example-maven-cd-single-pom</artifactId>
+	<artifactId>example-maven-cd-multi-module-pom</artifactId>
 	<version>RELEASE</version>
 	<packaging>pom</packaging>
 	<description>
