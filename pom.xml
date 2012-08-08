@@ -132,7 +132,7 @@
 	</build>
 
 	<properties>
-		<scm.location>scm:git:git@github.com:pdunnavant/example-maven-cd-single-pom.git</scm.location>
+		<scm.location>scm:git:git@github.com:pdunnavant/example-maven-cd-multi-module-pom.git</scm.location>
 
 		<version.major>1</version.major>
 		<version.minor>0</version.minor>
